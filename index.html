@@ -14,55 +14,58 @@
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap" rel="stylesheet">
     </head>
     <header>
-        <nav class="navbar p-sm-2 p-lg-3 p-md-3">
-           <div class="container py-4 align-middle">
-              <a href="#"><img src="assets/Logo.svg" class="logo" alt="IndieBrew"></a>
-              <ul class="nav">
-                 <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#">Pricing</a>
-                 </li>
-                 <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#">Support</a>
-                 </li>
-                 <li class="nav-item">
-                    <button type="button" class="btn btn-primary">Get Started - It's free</button>
-                 </li>
-              </ul>
-           </div>
-           <div class="background-custom"></div>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light p-sm-2 p-lg-3 p-md-3">
+            <div class="container container-fluid">
+              <a class="navbar-brand" href="#"><img src="assets/Logo.svg" class="logo" alt="IndieBrew"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
+                <ul class="nav text-align-center d-block d-lg-flex">
+                    <li class="nav-item">
+                       <a class="nav-link text-secondary" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link text-secondary" href="#">Support</a>
+                    </li>
+                    <li class="nav-item">
+                       <button type="button" class="btn btn-primary"><span class="fs-6 fw-bold">Get Started</span><span class="fs-6 fw-light"> - It's free</span></button>
+                    </li>
+              </div>
+            </div>
+          </nav>
      </header>
     <body>
         <div class="container">
-            <div class="row py-5">
-                <div class="col-md align-self-center">
+            <div class="row py-5 pb-sm-1">
+                <div class="col-md align-self-center order-last order-md-first">
                     <h2 class="titlu-2">Your weekly personal feed digest.</h2>
                     <p class="m-0 text-secondary">With IndieBrew, get personal feeds from resources all around the web, including Reddit, HackerNews, IndieHacker, and much more.</p>
                     <button type="button" class="btn btn-primary btn-lg my-3"><span class="fs-6 fw-bold">Get Started</span><span class="fs-6 fw-light"> - It's free</span></button>
                     <img class="d-block mb-2 icons-social" src="assets/User Avatars.svg" alt="">
                     <p class="text-secondary">Join <span class="fw-bold text-indigo">32,642</span> IndieBrewers in curating their personal digest.</p>
                 </div>
-                <div class="col-md align-self-center">
-                    <figure class="figure tableta d-flex m-auto">
+                <div class="col-md align-self-center order-first order-md-last">
+                    <figure class="figure tableta d-flex m-auto mb-sm-5">
                     <img class="img-fluid" src="assets/Feed Mockup.png" alt="">
                     </figure>
                 </div>
             </div>
-            <div class="row py-5 mt-5">
-                <div class="col-md">
+            <div class="row py-5 mt-0 mt-sm-5">
+                <div class="col-sm-6 order-last order-md-first">
                     <h3 class="fs-2">Curate your feed from dozens of resources.</h3>
                     <p class="text-secondary">We cover all major platforms where one could want to curate their feed from Reddit, ProductHunt, IndieHackers, and so much more.</p>
                     <a class="text-decoration-none text-indigo arrow fw-bold" href="#">See full list of resources</a>
                 </div>
-                <div class="col-md">
+                <div class="col-sm-6 align-self-center order-first order-md-last">
                     <img class="img-fluid media-icons d-flex mx-auto" src="assets/Social Media Icons.png" alt="">
                 </div>
             </div>
             <div class="row py-5">
-                <div class="col-md align-self-center">
+                <div class="col-sm-6 align-self-center">
                     <img class="img-fluid telefon d-flex mx-auto" src="assets/Phone Mockup.png" alt="">
                 </div>
-                <div class="col-md align-self-center">
+                <div class="col-sm-6 align-self-center">
                     <h3 class="fs-2">Access your feed from the confort of your phone.</h3>
                     <p class="text-secondary">With native apps for both iOS and Android, accesing your curated content has never been easier.</p>
                     <a class="text-decoration-none text-indigo arrow fw-bold" href="#">Sign up for the waiting list</a>
@@ -73,29 +76,29 @@
     <footer class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-12">
                     <p class="fw-bold">IndieBrew</p>
                     <p class="text-secondary">With IndieBrew, get personal feeds from resources all around the web, including Reddit, HackerNews, and much more.</p>
                     <p class="text-secondary">Made with ❤️ in the UK.</p>
                 </div>
-                <div class="col-2 lh-lg">
+                <div class="col-lg-2 col-6 lh-lg">
                     <span class="fw-bold d-block">Sitemap</span>
                     <a class="d-block text-decoration-none text-secondary" href="#">Homepage</a>
                     <a class="d-block text-decoration-none text-secondary" href="#">Pricing</a>
                 </div>
-                <div class="col-2 lh-lg">
+                <div class="col-lg-2 col-6 lh-lg">
                     <span class="fw-bold">Resources</span>
                     <a class="d-block text-decoration-none text-secondary" href="#">Support</a>
                     <a class="d-block text-decoration-none text-secondary" href="#">Contact</a>
                     <a class="d-block text-decoration-none text-secondary" href="#">FAQ</a>
                 </div>
-                <div class="col-2 lh-lg">
+                <div class="col-lg-2 col-6 lh-lg">
                     <span class="fw-bold">Company</span>
                     <a class="d-block text-decoration-none text-secondary" href="#">About</a>
                     <a class="d-block text-decoration-none text-secondary" href="#">Customers</a>
                     <a class="d-block text-decoration-none text-secondary" href="#">Blog</a>
                 </div>
-                <div class="col-2 lh-lg">
+                <div class="col-lg-2 col-6 lh-lg">
                     <span class="fw-bold">Portfolios</span>
                     <a class="d-block text-decoration-none text-secondary" href="#">HackerNews</a>
                     <a class="d-block text-decoration-none text-secondary" href="#">Reddit</a>
