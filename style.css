@@ -2,6 +2,10 @@
     font-family: 'DM Sans', sans-serif;
 }
 
+body {
+    background: linear-gradient(45deg, #fff, #f6e7f9)!important;
+}
+
 .icons-social {
     max-width: 200px;
 }
@@ -97,3 +101,27 @@
     height: 150%;
     z-index: -1;
   }
+
+  .repeating-before {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 3rem;
+}
+
+    .repeating-before > li {
+      padding-left: 1.7rem;
+      text-indent: -1.7rem;
+    }
+  
+    .repeating-before > li:nth-child(3n + 1)::before {
+      content: "🎈 ";
+    }
+  
+    .repeating-before > li:nth-child(3n + 2)::before {
+      content: "🗞️ ";
+    }
+  
+    .repeating-before > li:nth-child(3n)::before {
+      content: "💡 ";
+    }
+  
